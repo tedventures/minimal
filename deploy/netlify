@@ -14,7 +14,7 @@ deploy() {
 }
 
 console() {
-    url="https://app.netlify.com/sites/${wonderful-bardeen-b8eaa4.netlify.app}"
+    url="https://app.netlify.com/sites/${site}"
     case "$(uname -s)" in
         Darwin*) open ${url};;
         Linux*) xdg-open ${url};;
